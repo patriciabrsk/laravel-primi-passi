@@ -2,10 +2,38 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+}
+
+header {
     display: flex;
     justify-content: end;
-
+    padding: 20px 30px;
+    border-bottom: 1px solid #eee;
+    height: 40px;
 }
+
 header a {
     margin-left: 10px;
+    text-decoration: none;
+    color: rgb(97, 107, 108);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(97, 107, 108);
+}
+header a:hover {
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: rgb(97, 107, 108);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(97, 107, 108);
+}
+
+main h1 {
+    text-align: center;
 }

@@ -20,3 +20,17 @@ Route::get('/', function () {
     return view('home', $data);
 })->name('home');
 
+Route::get('/about', function () {
+    $data = [
+        'txt' => 'About Us'
+    ];
+    return view('about', $data);
+})->name('about');
+
+Route::get('/contact', function () {
+    $data = [
+        'txt' => 'Contact Us'
+    ];
+    return view('contact', $data);
+})->name('contact');
+

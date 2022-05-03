@@ -7,7 +7,7 @@
 
     <link href="/style/app.css" rel="stylesheet">
 
-    <title>Laravel</title>
+    <title>About</title>
 </head>
 <body>
     <header>

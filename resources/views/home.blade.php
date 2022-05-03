@@ -9,7 +9,7 @@
 <body>
     <main>
         <h1>
-            Hello, world!
+            {{$txt}}
         </h1>
     </main>
 </body>
